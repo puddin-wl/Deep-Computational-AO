@@ -9,5 +9,6 @@ The matlab part refers to https://github.com/eguomin/DeAbePlus/
 The entire workflow is roughly divided into two steps: the first step is to prepare the training set, and the second step is to perform training.
 
 ### Prepare data
-
+The original image after denoise can be loaded with the disparity as a training set through the tif_blurred.m.
+Then use the get_data.m to make training file which can be identification by the dataloader.
 
