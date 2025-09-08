@@ -2,8 +2,8 @@ clear; clc;
 addpath(genpath('.\mFunc\'));
 
 
-inputFolder = 'E:\monishuju\xiaotu_norm';       
-outputFolder = 'E:\monishuju\blured\45';      
+inputFolder = '';       
+outputFolder = '';      
 coefficientsFile = 'coeffs.csv'; 
 
 if ~exist(outputFolder, 'dir')
